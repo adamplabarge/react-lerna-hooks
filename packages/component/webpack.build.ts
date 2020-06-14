@@ -1,5 +1,5 @@
-import * as path from "path";
-import * as webpack from "webpack";
+import * as path from "path"
+import * as webpack from "webpack"
 
 const config: webpack.Configuration = {
   mode: "production",
@@ -7,12 +7,15 @@ const config: webpack.Configuration = {
   output: {
     path: path.resolve(__dirname, "build"),
     filename: "index.js",
-    libraryTarget: 'commonjs2'
+    libraryTarget: 'umd'
   },
   resolve: {
     // Add '.ts' and '.tsx' as resolvable extensions.
     extensions: [".ts", ".tsx", ".js", ".json", ".jsx"],
-    'react': path.resolve(__dirname, '../app/node_modules/react')
+    alias: {
+      'react': path.resolve(__dirname, '../app/node_modules/react/'),
+      'react-dom': path.resolve(__dirname, '../app/node_modules/react-dom/')
+    }
   },
 
   module: {

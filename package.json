@@ -2,7 +2,11 @@
   "name": "@example/root",
   "version": "1.0.0",
   "description": "React Lerna Hooks",
+  "packages": [
+    "packages/*"
+  ],
   "scripts": {
+    "bootstrap": "lerna bootstrap"
   },
   "author": "",
   "license": "ISC",
@@ -10,3 +14,4 @@
     "lerna": "^3.22.1"
   }
 }
+
