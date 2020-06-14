@@ -24,7 +24,7 @@ const config: webpack.Configuration = {
       { test: /\.tsx?$/, loader: "awesome-typescript-loader" }
     ]
   },
-  externals: ['react']
+  externals: ['react', 'react-dom']
 }
 
 export default config
