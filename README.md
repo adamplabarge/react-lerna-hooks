@@ -6,22 +6,22 @@ https://stackoverflow.com/questions/62353453/how-to-resolve-multiple-react-apps-
 
 ### How to start it?
 
-'''bash
+```bash
 $ yarn install
 $ yarn bootstrap
-'''
+```
 
 In one terminal...
-'''bash
+```bash
 $ cd packages/app
 $ yarn start
-'''
+```
 
 
 In another terminal...
-'''bash
+```bash
 $ cd packages/component
 $ yarn start
-'''
+```
 
 CRA seems to have issues running from the root package.json with Lerna
