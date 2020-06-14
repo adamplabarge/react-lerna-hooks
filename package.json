@@ -1,0 +1,12 @@
+{
+  "name": "@example/root",
+  "version": "1.0.0",
+  "description": "React Lerna Hooks",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "^3.22.1"
+  }
+}
