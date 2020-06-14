@@ -8,5 +8,5 @@ export default function IApp(props: IComponentProps) {
     console.log('Running Hook from Component')
   }, [])
 
-  return <h1>Component</h1>
+  return <h1>I am Component</h1>
 }
