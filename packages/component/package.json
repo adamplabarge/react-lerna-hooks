@@ -4,6 +4,7 @@
   "description": "",
   "main": "build/index.js",
   "scripts": {
+    "start": "build:watch",
     "build": "webpack --mode production --config webpack.build.ts",
     "build:watch": "webpack --mode production --config webpack.build.ts --watch"
   },

@@ -6,12 +6,12 @@
     "packages/*"
   ],
   "scripts": {
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna run bootstrap"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^5.2.0",
     "lerna": "^3.22.1"
   }
 }
-
